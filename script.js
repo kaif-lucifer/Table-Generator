@@ -13,7 +13,7 @@ function createTable() {
     for(let i = 1; i <= 10; i++) {
         res += "<tr>";
         for (let j = 1; j <= num; j++) {
-            res += "<td>" + ` x  = ` + i * j + "</td>";
+            res += "<td>" + `${j} x ${i} =` + i * j + "</td>";
         }
         res+= "</tr>";
         j=1;
