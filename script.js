@@ -1,6 +1,6 @@
 function createTable() {
   let num = document.getElementById("num").value;
-  let res = "<table border='2' width = '1200' cellpadding='0' cellsapcing ='0'>";
+  let res = "<table border='1' width = '10000' cellpadding='0' cellsapcing ='0'>";
 
   for(let i = 1; i <= 10; i++) {
     res += "<tr>";
